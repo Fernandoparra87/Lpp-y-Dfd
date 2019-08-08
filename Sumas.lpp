@@ -1,7 +1,7 @@
 REAL A,B,C
 	
 	INICIO
-		ESCRIBA "resta de dos numeros por teclado"
+		ESCRIBA "resta de dos numeros por teclado  (editado prro)"
 LLAMAR Nueva_linea
 
 		Escriba "Ingrese el primer numero"
@@ -12,6 +12,6 @@ LLAMAR Nueva_linea
 LLAMAR Nueva_linea
 		lea B
 		
-	C<-A+B 
+	C<-A-B 
 		Escriba "la resta de ",a, " mas ", b, " es " ,c
 FIN
