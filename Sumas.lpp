@@ -1,0 +1,17 @@
+REAL A,B,C
+	
+	INICIO
+		ESCRIBA "Suma de dos numeros por teclado"
+LLAMAR Nueva_linea
+
+		Escriba "Ingrese el primer numero"
+LLAMAR Nueva_linea
+		lea A
+		
+		Escriba "Ingrese el segundo numero"
+LLAMAR Nueva_linea
+		lea B
+		
+	C<-A+B 
+		Escriba "la suma de ",a, " mas ", b, " es " ,c
+FIN
