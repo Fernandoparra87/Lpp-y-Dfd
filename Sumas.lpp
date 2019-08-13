@@ -11,6 +11,7 @@ LLAMAR Nueva_linea
 LLAMAR Nueva_linea
 	lea B
 	C<-A-B 
-	Escriba "la resta de ",a, " mas ", b, " es " ,c
+	Escriba "la resta de ",A, " mas ", B, " es " ,C
+	Ecriba "Ya lo arregle profe"
 FIN
 //se recomienda usar minusculas
