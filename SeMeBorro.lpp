@@ -1,0 +1,245 @@
+Real A,B,AB, Base, Altura, Radio,Circulo
+Caracter X,Ar
+Cadena [10]Nombre
+Entero Area,Triangulo, Cuadrado,W,G,P
+
+Inicio
+
+	
+	
+	Escriba "Escriba su Nombre"
+		Llamar Nueva_Linea
+			Lea Nombre
+			
+		Llamar Nueva_linea
+		Llamar Nueva_linea
+			
+	Escriba "Ingrese un numero caraacter del menu"
+		Llamar Nueva_linea
+	
+	Escriba  "S para sumar"
+		Llamar Nueva_linea
+	
+	Escriba "R para respuesta"
+		Llamar Nueva_Linea
+	
+	Escriba "M para Multiplicar"
+		Llamar Nueva_Linea
+	
+	Escriba "D para Dividir"
+		Llamar Nueva_Linea
+		
+	Escriba "P para Nueva Opcion"
+		Llamar Nueva_Linea
+		Llamar Nueva_linea
+		
+	Escriba "Caracter distinto a R, S, M, P o D para terminaer"
+	Llamar Nueva_linea
+																								/* BIJIJIJI FRUTO EL QUE LO LEA */
+	Lea X
+	
+	Llamar Nueva_linea
+	
+			Caso X
+				
+				'S': 
+					Escriba "Vamos a la Suma"
+					Llamar nueva_linea
+					 
+					Escriba "ingrese el primer numero"
+					Llamar nueva_linea
+					Lea A
+					
+					Llamar nueva_linea
+					Escriba "Ingrese el segundo numero"
+					Llamar nueva_linea
+					Lea B
+					
+						AB<-A+B
+					
+					Escriba "La suma es ", AB
+					
+				'R':
+					Escriba "Vamos a Restar"
+					Llamar nueva_linea
+					 
+					Escriba "ingrese el primer numero"
+					Llamar nueva_linea
+					Lea A
+					
+					Llamar nueva_linea
+					Escriba "Ingrese el segundo numero"
+					Llamar nueva_linea
+					Lea B
+					
+						AB<-A-B
+					
+					Escriba "La Resta es ", AB
+					
+					Llamar nueva_linea
+					
+					
+																			/* Calcular area */
+																			
+																			Escriba "Escriba S o N, Si quiere calcular Area: "
+																				Lea Ar
+																				
+																				Si Ar = 'S' entonces
+																				
+																					
+																						Escriba "Digite opcion a seleccionar"
+																							Llamar Nueva_linea
+																						
+																						Escriba "1 Para calcular el area de un triangulo"
+																							Llamar Nueva_linea
+																						
+																						Escriba "2 Para calcular el area de un cuadrado"
+																							Llamar Nueva_linea
+																							
+																						Escriba "3 Para calcular el area de un circulo"
+																							Llamar Nueva_linea
+																					
+																						
+																								Lea Area
+																								
+																									Caso Area
+																										
+																										1:
+																											Escriba "Ingrese el numero para la base"
+																												Llamar Nueva_linea
+																													Lea Base
+																											
+																											Escriba "Ingrese el numero para la altura"
+																												Llamar Nueva_linea
+																													Lea Altura
+																												
+																												Triangulo<-(Base*Altura)/2
+																												
+																												Escriba "El area del triangulo es: ", Triangulo
+																												
+																										2:
+																											Escriba "Ingrese el radio del Cuadrado"
+																												Llamar Nueva_linea
+																													Lea Altura		
+																													
+																													Cuadrado<-Altura*Altura
+																													
+																														
+																											Escriba "El area del Circulo es: ", Cuadrado
+																											
+																										3:
+																											Escriba "Ingrese el radio del circulo"
+																												Llamar Nueva_linea
+																													Lea Radio		
+																													
+																													Circulo<-3.1416*(Radio*Radio)
+																													
+																											Escriba Circulo
+																											
+																									Fin caso
+																					
+																					Sino
+																						
+																						Escriba "No se activo opcion"	
+																					
+																					
+																				Fin Si
+																				
+																				
+																			
+					
+				'M':
+					
+					Escriba "Vamos a la Multiplicar"
+					Llamar nueva_linea
+					 
+					Escriba "ingrese el primer numero"
+						Llamar nueva_linea
+					Lea A
+					
+						Llamar nueva_linea
+					Escriba "Ingrese el segundo numero"
+						Llamar nueva_linea
+					Lea B
+					
+						AB<-A*B
+						
+					Escriba "La Multiplicacion es ", AB
+						
+				'D':
+				
+					Escriba "Vamos a Dividir"
+						Llamar nueva_linea
+					 
+					Escriba "ingrese el primer numero"
+						Llamar nueva_linea
+					Lea A
+					
+					Llamar nueva_linea
+					Escriba "Ingrese el segundo numero"
+						Llamar nueva_linea
+					Lea B
+					
+						AB<-A/B
+					
+					Escriba "La Division es ", AB
+					
+				'P':
+				
+						Escriba "Digite la opcion a seleccionar"
+							Llamar Nueva_linea
+							
+						Escriba "7 para ingresar la contraseña"
+							Llamar Nueva_linea
+							
+						Escriba "8 para ver su nombre en pantalla"
+							Llamar Nueva_linea
+							
+						Escriba "9 para ingresar la fecha"
+							Llamar Nueva_linea
+							
+							Lea W
+							
+							Caso W
+							
+								7:
+									Escriba "Ingrese la contraseña"
+									Llamar Nueva_linea
+									
+									Mientras P <> 321 haga
+										Escriba "La contraseña es erronea, intente nuevamente: "
+											Lea P
+											
+									Fin mientras
+									 
+										Escriba "Contraseña correctda"
+									
+								8:
+									Escriba "Su nombre es", Nombre
+										Llamar Nueva_linea
+									
+								9:
+									Escriba "Ingrese la fecha de hoy para mostrar en pantalla"
+										Llamar Nueva_linea
+											Lea G
+										Llamar Nueva_linea
+										
+									Escriba "La fecha es", G
+				
+					
+							Sino:
+			
+									Escriba "Suma invalida"
+						
+							Fin caso
+						
+						
+						
+							Fin caso
+			
+				Llamar nueva_linea
+			Escriba Nombre
+			
+Fin
+	
+	
